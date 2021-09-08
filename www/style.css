@@ -1,0 +1,29 @@
+#style{height: 1000px;
+    background: linear-gradient(450deg, indigo,whitesmoke);
+    text-align: center;
+}
+#myinput{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: violet;
+    width: 190px;
+    height: 50px;
+    font-size: 40px;
+    background-color: darkred;
+    color: whitesmoke;
+text-align: center;
+}
+.btns{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+width: 50px;
+height: 50px;
+background-color: crimson;
+color: whitesmoke;
+}
+main{
+
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+}
+.nol{
+    border-collapse: collapse;
+border-bottom-left-radius: 50px;
+}
