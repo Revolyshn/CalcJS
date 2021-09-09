@@ -1,0 +1,37 @@
+#style{
+    height: 1000px;
+    background: linear-gradient(450deg, indigo,whitesmoke);
+    text-align: center;
+    align-items: center;
+}
+#myinput{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: violet;
+    width: 190px;
+    height: 20px;
+    font-size: 15px;
+    background-color: darkred;
+    color: whitesmoke;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+
+}
+#myinput:hover{
+    background-color: #303030;
+}
+.btns{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 50px;
+    height: 50px;
+    background-color: crimson;
+    color: whitesmoke;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+}
+.nol{
+    border-collapse: collapse;
+    border-bottom-left-radius: 50px;
+}
